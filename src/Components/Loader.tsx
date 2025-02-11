@@ -64,7 +64,7 @@ const Loader = () => {
             initial={{ top: "0%" }}
             exit={{ top: "-100%" }}
             transition={{ duration: 1.1, ease: [0.23, 1, 0.32, 1], }}
-            className="w-screen z-[99999] h-screen bg-black left-0 absolute"
+            className="w-screen z-[99999] h-lvh bg-black left-0 absolute"
           >
             <svg
               style={{ height: curveController * 1.4 }}
