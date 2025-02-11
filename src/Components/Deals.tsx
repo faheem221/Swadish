@@ -36,7 +36,7 @@ const Deals = () => {
           <p className="text-3xl mt-1 font-bold">₹ 475 / 570/-</p>
           <div className="flex mt-1 justify-between items-center text-[.7rem]">
             <p>Free delivery</p>
-            <p>$ 95 Per Day</p>
+            <p>₹95 Per Day</p>
           </div>
         </div>
         <div className="px-3 border border-[#BCCCE2] py-5 bg-[#ADC6EF] rounded-4xl">
@@ -50,7 +50,7 @@ const Deals = () => {
           <p className="text-3xl mt-1 font-bold">₹ 1890 / 2250/-</p>
           <div className="flex mt-1 justify-between items-center text-[.7rem]">
             <p>Free delivery</p>
-            <p>$ 90 Per Day</p>
+            <p>₹90 Per Day</p>
           </div>
         </div>
       </div>
