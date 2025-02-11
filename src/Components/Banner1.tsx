@@ -7,7 +7,7 @@ const Banner1 = () => {
        <div className="justify-center relative z-10 items-center flex flex-col">
        <h2 className='text-2xl font-Cascadia tracking-tighter font-[600]'>Office Delight Thali</h2>
         <p className=' text-[.7rem] tracking-tight'>Veg Sabji | Dal | Rice | 4 Roti | Fresh Salad</p>
-        <button className='text-slate-50 text-[.7rem] font-Roboto px-3 py-1 mt-3 text-md bg-red-500 rounded-full'> 
+        <button onClick={()=>window.location.href='https://wa.me/message/DH3TXUZ42YZYC1'} className='text-slate-50 text-[.7rem] font-Roboto px-3 py-1 mt-3 text-md bg-red-500 rounded-full'> 
             Subscription
         </button>
        </div>

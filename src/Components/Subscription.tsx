@@ -25,8 +25,8 @@ const Subscription = () => {
             <p className="text-slate-300 text-[.7rem]"> Get your meals delivered first.</p>
           </li>
         </ul>
-        <button className="rounded-full mt-6 mb-3 text-[.6rem] px-6 py-2 text-slate-50 bg-red-500 ">
-          Subscrive & Order Your Meal Today*
+        <button onClick={()=>window.location.href='https://wa.me/message/DH3TXUZ42YZYC1'} className="rounded-full mt-6 mb-3 text-[.6rem] px-6 py-2 text-slate-50 bg-red-500 ">
+          Subscribe & Order Your Meal Today*
         </button>
       </div>
     </div>
