@@ -8,7 +8,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "predeploy": "echo 'yourdomain.com' > dist/CNAME",
+    "predeploy": "npm run dev && echo 'rasoidelight.com' > dist/CNAME",
     "deploy": "gh-pages -b gh-pages -d dist"
   },
   "dependencies": {
