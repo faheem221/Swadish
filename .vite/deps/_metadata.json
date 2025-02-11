@@ -1,0 +1,37 @@
+{
+  "hash": "6cd8c787",
+  "configHash": "3285516f",
+  "lockfileHash": "1793b46d",
+  "browserHash": "34e41861",
+  "optimized": {
+    "react/jsx-dev-runtime": {
+      "src": "../../node_modules/react/jsx-dev-runtime.js",
+      "file": "react_jsx-dev-runtime.js",
+      "fileHash": "86be15f2",
+      "needsInterop": true
+    },
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "9d6c3fcc",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "0d7b585a",
+      "needsInterop": true
+    },
+    "@phosphor-icons/react": {
+      "src": "../../node_modules/@phosphor-icons/react/dist/index.mjs",
+      "file": "@phosphor-icons_react.js",
+      "fileHash": "f1148e8f",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-JRE55LYH": {
+      "file": "chunk-JRE55LYH.js"
+    }
+  }
+}
