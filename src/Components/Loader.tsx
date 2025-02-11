@@ -33,17 +33,22 @@ const Loader = () => {
       const interval = setInterval(() => {
         setCurrentTextIndex((prevIndex) => prevIndex + 1);
       }, 700);
-      
 
       return () => clearInterval(interval); // Cleanup on unmount or interval change
     } else {
       setIsLoading(false);
     }
   }, [currentTextIndex]);
-  useEffect(()=> {
-    if(isLoading) document.body.style.overflow = 'hidden'
-    document.body.style.overflow = 'auto'
-  }, [isLoading])
+  useEffect(() => {
+    if (isLoading) {
+      document.documentElement.style.overflow = "hidden";
+      document.body.style.overflow = "hidden";
+    } else {
+      document.documentElement.style.overflow = "auto";
+      document.body.style.overflow = "auto";
+    }
+  }, [isLoading]);
+  
   const pathVariants = {
     animate: {
       d: `M0 ${0} Q${viewPortDimension.width / 2} ${0}, ${
@@ -61,9 +66,9 @@ const Loader = () => {
       <AnimatePresence mode={"wait"}>
         {isLoading && (
           <motion.div
-            initial={{ top: "0%" }}
-            exit={{ top: "-100%" }}
-            transition={{ duration: 1.1, ease: [0.23, 1, 0.32, 1], }}
+            initial={{ translateY: "0%" }}
+            exit={{ translateY: "-100%" }}
+            transition={{ duration: 1.1, ease: [0.23, 1, 0.32, 1] }}
             className="w-screen z-[99999] h-lvh bg-black left-0 absolute"
           >
             <svg
