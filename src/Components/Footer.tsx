@@ -14,7 +14,7 @@ const Footer = () => {
       <div className="grid grid-cols-[.8fr_1.2fr]">
         <div className="">
           <div className="w-[80px]">
-            <img src={"/Logo-01_white.png"} />
+            <img src={'/media/Logo-banner.png'} />
           </div>
           <button
             onClick={() =>

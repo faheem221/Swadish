@@ -36,7 +36,8 @@ const Loader = () => {
 
       return () => clearInterval(interval); // Cleanup on unmount or interval change
     } else {
-      setIsLoading(false);
+      if(viewPortDimension.width > 0 ) setIsLoading(false);
+      
     }
   }, [currentTextIndex]);
   useEffect(() => {
@@ -61,6 +62,7 @@ const Loader = () => {
       },
     },
   };
+  console.log(viewPortDimension)
   return (
     <>
       <AnimatePresence mode={"wait"}>
